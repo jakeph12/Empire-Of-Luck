@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1601fe48b5cb7449869d17c888f283a, type: 3}
+  m_Name: 7.Sapphire Bay Casino
+  m_EditorClassIdentifier: 
+  m_spMainIco: {fileID: -2098192830, guid: a2fce3aad247f7a4a9c29a1d64b80ff4, type: 3}
+  m_inVisitorsNeed: 15000
+  m_inCoinNeed: 400000
+  m_strDescript: A premium casino resort by the waterfront, offering unparalleled
+    views and a luxurious experience.
+  m_scUpgrades:
+  - m_strName: Yacht Docking Bay
+    m_strDescript: Provide exclusive docking for yachts, attracting elite visitors.
+    m_inVisitorIncrease: 6000
+    m_inCost: 160000
+  - m_strName: Waterfront Suites
+    m_strDescript: Luxury waterfront rooms for high-end visitors.
+    m_inVisitorIncrease: 6500
+    m_inCost: 170000
+  - m_strName: Private Beach Club
+    m_strDescript: Create an exclusive beach club for VIPs.
+    m_inVisitorIncrease: 7000
+    m_inCost: 180000
+  - m_strName: Infinity Pool Deck
+    m_strDescript: An infinity pool overlooking the water, offering a relaxing retreat.
+    m_inVisitorIncrease: 7500
+    m_inCost: 200000
+  - m_strName: 'Luxury Marina Restaurant '
+    m_strDescript: A five-star restaurant right by the marina
+    m_inVisitorIncrease: 8000
+    m_inCost: 220000

@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1601fe48b5cb7449869d17c888f283a, type: 3}
+  m_Name: 2.City Casino
+  m_EditorClassIdentifier: 
+  m_spMainIco: {fileID: -334485178, guid: a2fce3aad247f7a4a9c29a1d64b80ff4, type: 3}
+  m_inVisitorsNeed: 400
+  m_inCoinNeed: 10000
+  m_strDescript: "Now you\u2019re running a full-fledged city casino with more games
+    and entertainment options. This is a step toward becoming a recognized name in
+    town."
+  m_scUpgrades:
+  - m_strName: Craps Table
+    m_strDescript: Add craps to your offerings to diversify your game selection.
+    m_inVisitorIncrease: 100
+    m_inCost: 5000
+  - m_strName: Improved Seating
+    m_strDescript: Upgrade to more comfortable seating throughout the casino.
+    m_inVisitorIncrease: 80
+    m_inCost: 4500
+  - m_strName: Live Music Stage
+    m_strDescript: Set up a small stage for live performances to attract more visitors.
+    m_inVisitorIncrease: 120
+    m_inCost: 6500
+  - m_strName: Casino Restaurant
+    m_strDescript: Open a small restaurant for guests who want a full dining experience.
+    m_inVisitorIncrease: 150
+    m_inCost: 7000
+  - m_strName: Private Poker Room
+    m_strDescript: ' Introduce a separate room for serious poker players.'
+    m_inVisitorIncrease: 180
+    m_inCost: 8000

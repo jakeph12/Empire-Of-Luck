@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1601fe48b5cb7449869d17c888f283a, type: 3}
+  m_Name: 3.Metropolitan Casino
+  m_EditorClassIdentifier: 
+  m_spMainIco: {fileID: 173210897, guid: a2fce3aad247f7a4a9c29a1d64b80ff4, type: 3}
+  m_inVisitorsNeed: 800
+  m_inCoinNeed: 30000
+  m_strDescript: "You\u2019re now one of the top casinos in the city. This level
+    offers a more upscale experience, complete with high-end decor and premium services."
+  m_scUpgrades:
+  - m_strName: High-Stakes Blackjack
+    m_strDescript: Add high-stakes blackjack tables to attract wealthier clientele.
+    m_inVisitorIncrease: 250
+    m_inCost: 10000
+  - m_strName: Cocktail Bar
+    m_strDescript: A luxury bar serving cocktails to guests.
+    m_inVisitorIncrease: 220
+    m_inCost: 9000
+  - m_strName: Luxury Lounge
+    m_strDescript: Create a plush lounge area for high-rollers.
+    m_inVisitorIncrease: 300
+    m_inCost: 18000
+  - m_strName: VIP Rooms
+    m_strDescript: Offer exclusive VIP rooms for important guests.
+    m_inVisitorIncrease: 350
+    m_inCost: 15000
+  - m_strName: Fountain Display
+    m_strDescript: Add a beautiful water fountain display to impress guests.
+    m_inVisitorIncrease: 400
+    m_inCost: 18000

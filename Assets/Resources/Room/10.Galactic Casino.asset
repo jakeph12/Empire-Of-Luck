@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1601fe48b5cb7449869d17c888f283a, type: 3}
+  m_Name: 10.Galactic Casino
+  m_EditorClassIdentifier: 
+  m_spMainIco: {fileID: 423135591, guid: a2fce3aad247f7a4a9c29a1d64b80ff4, type: 3}
+  m_inVisitorsNeed: 75000
+  m_inCoinNeed: 5000000
+  m_strDescript: A futuristic casino with a space-age theme. Located in a cutting-edge
+    building, this casino offers high-tech experiences and breathtaking views of
+    the galaxy-like interior, with holograms and AI-enhanced services.
+  m_scUpgrades:
+  - m_strName: Hologram Casino Floor
+    m_strDescript: A futuristic casino floor where games are operated by holograms
+      and AI.
+    m_inVisitorIncrease: 12000
+    m_inCost: 700000
+  - m_strName: Zero-Gravity Lounge
+    m_strDescript: A lounge where guests can experience simulated zero-gravity as
+      they sip drinks.
+    m_inVisitorIncrease: 10000
+    m_inCost: 650000
+  - m_strName: Space Suites
+    m_strDescript: Ultra-modern suites designed with space-themed interiors and virtual
+      windows showing distant galaxies.
+    m_inVisitorIncrease: 13000
+    m_inCost: 750000
+  - m_strName: Galactic Theater
+    m_strDescript: A theater featuring futuristic, immersive shows using holograms
+      and virtual reality.
+    m_inVisitorIncrease: 15000
+    m_inCost: 800000
+  - m_strName: AI Concierge Service
+    m_strDescript: An AI-powered concierge system that provides flawless service
+      to high-profile guests.
+    m_inVisitorIncrease: 18000
+    m_inCost: 900000

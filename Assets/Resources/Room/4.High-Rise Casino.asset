@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1601fe48b5cb7449869d17c888f283a, type: 3}
+  m_Name: 4.High-Rise Casino
+  m_EditorClassIdentifier: 
+  m_spMainIco: {fileID: -529881492, guid: a2fce3aad247f7a4a9c29a1d64b80ff4, type: 3}
+  m_inVisitorsNeed: 1500
+  m_inCoinNeed: 60000
+  m_strDescript: Moving up, literally! Your casino is now part of a high-rise, offering
+    premium services with a sky-high view.
+  m_scUpgrades:
+  - m_strName: Sky Lounge
+    m_strDescript: A rooftop lounge offering stunning views.
+    m_inVisitorIncrease: 500
+    m_inCost: 20000
+  - m_strName: Exclusive Penthouse Suites
+    m_strDescript: Exclusive Penthouse Suites
+    m_inVisitorIncrease: 600
+    m_inCost: 25000
+  - m_strName: Private Helipad
+    m_strDescript: Provide helicopter access for your most important guests.
+    m_inVisitorIncrease: 700
+    m_inCost: 30000
+  - m_strName: Fine Dining Restaurant
+    m_strDescript: A five-star dining experience for elite guests.
+    m_inVisitorIncrease: 800
+    m_inCost: 28000
+  - m_strName: Infinity Pool
+    m_strDescript: Install an infinity pool on the rooftop to elevate the luxury
+      experience
+    m_inVisitorIncrease: 1000
+    m_inCost: 35000

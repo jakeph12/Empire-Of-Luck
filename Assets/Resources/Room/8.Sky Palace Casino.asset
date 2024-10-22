@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1601fe48b5cb7449869d17c888f283a, type: 3}
+  m_Name: 8.Sky Palace Casino
+  m_EditorClassIdentifier: 
+  m_spMainIco: {fileID: 778753860, guid: a2fce3aad247f7a4a9c29a1d64b80ff4, type: 3}
+  m_inVisitorsNeed: 30000
+  m_inCoinNeed: 1000000
+  m_strDescript: A skyscraper casino that towers over the city, offering a high-end
+    experience with breathtaking views.
+  m_scUpgrades:
+  - m_strName: Helipad Lounge
+    m_strDescript: A rooftop helipad and bar for the most exclusive guests.
+    m_inVisitorIncrease: 10000
+    m_inCost: 250000
+  - m_strName: Private Penthouse Suites
+    m_strDescript: Ultra-luxurious penthouses for VIPs.
+    m_inVisitorIncrease: 12000
+    m_inCost: 300000
+  - m_strName: Sky Casino Floor
+    m_strDescript: A casino floor with floor-to-ceiling windows offering panoramic
+      views.
+    m_inVisitorIncrease: 11000
+    m_inCost: 280000
+  - m_strName: Sky Pool
+    m_strDescript: A glass-bottom infinity pool on the rooftop for elite guests.
+    m_inVisitorIncrease: 13000
+    m_inCost: 35000
+  - m_strName: VIP Skyline Restaurant
+    m_strDescript: 'A fine dining restaurant at the top of the skyscraper with stunning
+      views. '
+    m_inVisitorIncrease: 15000
+    m_inCost: 400000

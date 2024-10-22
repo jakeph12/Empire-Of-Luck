@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1601fe48b5cb7449869d17c888f283a, type: 3}
+  m_Name: 5.Las Vegas Casino
+  m_EditorClassIdentifier: 
+  m_spMainIco: {fileID: -753017242, guid: a2fce3aad247f7a4a9c29a1d64b80ff4, type: 3}
+  m_inVisitorsNeed: 5000
+  m_inCoinNeed: 150000
+  m_strDescript: "You\u2019ve made it to Las Vegas! Your casino is one of the many
+    shining jewels of the strip, but now you need to stand out among the competition."
+  m_scUpgrades:
+  - m_strName: Luxury Showroom
+    m_strDescript: Host world-class performances and shows.
+    m_inVisitorIncrease: 15000
+    m_inCost: 45000
+  - m_strName: Celebrity Chef Restaurant
+    m_strDescript: Partner with a celebrity chef to open a signature restaurant.
+    m_inVisitorIncrease: 1200
+    m_inCost: 50000
+  - m_strName: Luxury Suites
+    m_strDescript: Offer premium luxury suites for high-rollers and celebrities.
+    m_inVisitorIncrease: 1800
+    m_inCost: 60000
+  - m_strName: Nightclub
+    m_strDescript: Build a high-end nightclub to attract guests looking for nightlife.
+    m_inVisitorIncrease: 2000
+    m_inCost: 70000
+  - m_strName: VIP Casino Floor
+    m_strDescript: ' A private casino floor for exclusive guests.'
+    m_inVisitorIncrease: 2500
+    m_inCost: 80000

@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1601fe48b5cb7449869d17c888f283a, type: 3}
+  m_Name: 1.Ground-Level Casino
+  m_EditorClassIdentifier: 
+  m_spMainIco: {fileID: -717062201, guid: a2fce3aad247f7a4a9c29a1d64b80ff4, type: 3}
+  m_inVisitorsNeed: 100
+  m_inCoinNeed: 5000
+  m_strDescript: "You\u2019ve moved out of the basement and onto street level. The
+    casino is still small but more respectable, featuring basic amenities and a couple
+    of game tables. "
+  m_scUpgrades:
+  - m_strName: Slot Machine Area
+    m_strDescript: Introduce a few slot machines to attract casual players.
+    m_inCost: 50
+    m_inVisitorIncrease: 2000
+  - m_strName: Basic Lounge
+    m_strDescript: Create a small lounge for guests to relax.
+    m_inCost: 2500
+    m_inVisitorIncrease: 40
+  - m_strName: Roulette Table
+    m_strDescript: Add a roulette table for a touch of classic casino fun.
+    m_inCost: 3500
+    m_inVisitorIncrease: 70
+  - m_strName: Snack Bar
+    m_strDescript: A small snack bar for basic refreshments.
+    m_inCost: 3000
+    m_inVisitorIncrease: 60
+  - m_strName: VIP Booth
+    m_strDescript: Set up a basic VIP booth to attract higher-paying customers.
+    m_inCost: 4000
+    m_inVisitorIncrease: 80

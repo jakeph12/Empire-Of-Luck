@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1601fe48b5cb7449869d17c888f283a, type: 3}
+  m_Name: 11.Infinity Casino
+  m_EditorClassIdentifier: 
+  m_spMainIco: {fileID: -1163887614, guid: a2fce3aad247f7a4a9c29a1d64b80ff4, type: 3}
+  m_inVisitorsNeed: 150000
+  m_inCoinNeed: 10000000
+  m_strDescript: The pinnacle of casino luxury, offering a surreal experience with
+    endless possibilities. This casino blends virtual and real worlds, creating a
+    truly immersive and futuristic environment where anything is possible.
+  m_scUpgrades:
+  - m_strName: Virtual Reality Casino Floor
+    m_strDescript: A cutting-edge VR casino floor where guests can play games in
+      a fully immersive virtual world
+    m_inVisitorIncrease: 20000
+    m_inCost: 1000000
+  - m_strName: Endless VIP Lounge
+    m_strDescript: A luxury lounge with infinite possibilities, where decor changes
+      according to guest preferences in real time.
+    m_inVisitorIncrease: 18000
+    m_inCost: 1200000
+  - m_strName: Teleportation Suites
+    m_strDescript: Guests can teleport between different themed suites, offering
+      a unique experience with each stay.
+    m_inVisitorIncrease: 25000
+    m_inCost: 1500000
+  - m_strName: Infinity Pool & Sky Gardens
+    m_strDescript: A luxurious infinity pool that blends into the sky, surrounded
+      by floating gardens.
+    m_inVisitorIncrease: 28000
+    m_inCost: 1800000
+  - m_strName: AI-Powered Personal Concierge
+    m_strDescript: Each guest is assigned their own AI personal assistant to handle
+      every request with unparalleled efficiency.
+    m_inVisitorIncrease: 30000
+    m_inCost: 2000000

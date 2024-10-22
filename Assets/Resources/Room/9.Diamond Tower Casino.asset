@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1601fe48b5cb7449869d17c888f283a, type: 3}
+  m_Name: 9.Diamond Tower Casino
+  m_EditorClassIdentifier: 
+  m_spMainIco: {fileID: 634311176, guid: a2fce3aad247f7a4a9c29a1d64b80ff4, type: 3}
+  m_inVisitorsNeed: 50000
+  m_inCoinNeed: 2500000
+  m_strDescript: A luxurious, diamond-themed casino towering above the city, offering
+    the ultimate VIP experience. Everything here glistens with luxury, from the diamond-studded
+    decor to the high-stakes gaming floors.
+  m_scUpgrades:
+  - m_strName: Diamond Casino Floor
+    m_strDescript: A sparkling casino floor with diamond accents, designed for elite
+      gamblers.
+    m_inVisitorIncrease: 8000
+    m_inCost: 450000
+  - m_strName: Crystal Penthouse Suites
+    m_strDescript: 'Ultra-luxury suites with crystal and diamond designs for VIPs. '
+    m_inVisitorIncrease: 10000
+    m_inCost: 500000
+  - m_strName: Luxury Shopping Mall
+    m_strDescript: A high-end shopping mall featuring exclusive designer brands
+    m_inVisitorIncrease: 11000
+    m_inCost: 550000
+  - m_strName: Gala Event Hall
+    m_strDescript: A grand hall for hosting exclusive events, galas, and high-profile
+      parties.
+    m_inVisitorIncrease: 12000
+    m_inCost: 600000
+  - m_strName: Diamond Showroom
+    m_strDescript: ' An extravagant showroom where performers dazzle guests with
+      top-tier entertainment. '
+    m_inVisitorIncrease: 13000
+    m_inCost: 650000
